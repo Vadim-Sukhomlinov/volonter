@@ -5,7 +5,13 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
-  }
+  },
+  // Для App Router важно указать distDir
+  distDir: 'out',
+  // Убедитесь, что basePath отключен для GitHub Pages
+  basePath: '',
+  assetPrefix: '',
 }
 
-module.exports = nextConfig
+export default nextConfig;
+// module.exports = nextConfig
