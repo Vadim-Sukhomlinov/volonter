@@ -7,9 +7,10 @@ import type { NextConfig } from "next";
 // export default nextConfig;
 
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath: '/volenter',
   images: {
     unoptimized: true
   }
