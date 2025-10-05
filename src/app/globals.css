@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* @theme {
+  --color-primary: #3b82f6;
+} */
+
+.header-background {
+  background-image: url('/1.jpg');
+  /* Путь от папки public */
+  background-repeat: no-repeat;
+  /* Чтобы изображение не повторялось */
+  background-position: center;
+  /* Выравнивание по центру */
+  background-size: contain;
+  /* Изображение целиком помещается в блок */
+  width: 100%;
+  /* или нужная вам ширина */
+  height: 80px;
+  /* задайте нужную высоту */
+}
