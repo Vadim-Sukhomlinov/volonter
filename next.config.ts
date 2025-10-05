@@ -1,19 +1,9 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
 
-// const nextConfig: NextConfig = {
-//   /* config options here */
-// };
-
-// export default nextConfig;
-
-
-const nextConfig = {
+const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '/volenter',
   images: {
     unoptimized: true
   }
 }
-
-module.exports = nextConfig
